@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="This is a University website.">
         <link rel="stylesheet" href="index.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
         <title>Home</title>
     </head>
     <body>
@@ -14,6 +15,7 @@
             </div>
             <nav>
                 <ul class="navbar">
+                    <!-- <button class="nav-button"></button> -->
                     <li class="nav-items"><a href="#">Admissions</a></li>
                     <li class="nav-items"><a href="#">People</a></li>
                     <li class="nav-items"><a href="#">Courses</a></li>
@@ -25,10 +27,11 @@
         <main class="content">
             <section class="One">
                 <div class="welcome">
-                    <figure id="welcome">
-                        <img src="images.jpeg" alt="welcome photo" width="100%">
-                        <span class="welcome-text">Welcome to sitare University Website</span>
-                    </figure>
+                    <img src="images.jpeg" alt="welcome photo" id="welcome">
+                </div>
+                <div class="welcome-text">
+                    <h1>Welcome to Sitare University</h1>
+                    <p>Find us on...</p>
                 </div>
             </section>
             <section class="Two">
@@ -44,6 +47,8 @@
                         intellectual curiosity, ethical values, and a commitment to 
                         social responsibility.
                     </p>
+                </div>
+                <div class="mission">
                     <h1 class="heading">Our Vision</h1>
                     <p class="mission-text">
                         Our vision is to be recognized globally as a leading 
@@ -62,62 +67,95 @@
                 </div>
             </section> -->
             <section class="four">
+                <h1 class="heading">University Clubs</h1>
                 <div class="clubs">
-                    <h1 class="heading">University Clubs</h1>
                     <div class="club1">
-                        <h3 class="club-heading">Entrepreneurship Launchpad</h3>
                         <img src="club1.png" alt="Club1">
-                        <p class="club-text">The Entrepreneurship Launchpad is a hub for 
-                            aspiring entrepreneurs and innovators. This club provides 
-                            mentorship, networking opportunities, and resources to help 
-                            students develop their business ideas and start-ups. 
-                            Through entrepreneurship competitions, pitch nights, and incubation 
-                            programs, members receive valuable feedback and guidance from 
-                            experienced professionals. The Entrepreneurship Launchpad fosters 
-                            a spirit of entrepreneurship, inspiring students to turn their 
-                            innovative ideas into successful ventures.</p>
+                        <div class="container">
+                            <h3 class="club-heading">Byte Busters</h3>                        
+                            <p class="club-text">Some text...</p>
+                        </div>
                     </div>
                     <div class="club2">
-                        <h3 class="club-heading">Health & Wellness Collective</h3>
                         <img src="club2.png" alt="Club1">
-                        <p class="club-text">llness Collective
-                            Description: The Health & Wellness Collective advocates for physical, mental, and emotional well-being among university students. This club hosts fitness classes, mindfulness workshops, and seminars on topics related to mental health, nutrition, and stress management. The Health & Wellness Collective collaborates with campus health services to promote healthy lifestyles and provide resources to students. Through their initiatives, the club aims to create a supportive community that prioritizes self-care and encourages a balanced approach to academic and personal life.</p>
+                        <div class="container">
+                            <h3 class="club-heading">Raga Rhythm</h3>                        
+                            <p class="club-text">Some text...</p>
+                        </div>
                     </div>
                     <div class="club3">
-                        <h3 class="club-heading">Global Connections Network</h3>
                         <img src="club3.jpeg" alt="Club1">
-                        <p class="club-text">The Global Connections Network is a cultural exchange club that celebrates diversity and fosters cross-cultural understanding among students from different backgrounds. Through cultural showcases, international food fests, and language exchange programs, this club creates an inclusive and welcoming environment for students of all nationalities. The Global Connections Network also organizes volunteering trips and charity events to support global causes and make a difference in communities worldwide.</p>
+                        <div class="container">
+                            <h3 class="club-heading">Founders Forum</h3>                        
+                            <p class="club-text">Some text...</p>
+                        </div>
                     </div>
                     <div class="club4">
-                        <h3 class="club-heading">Tech Innovators Society</h3>
-                        <img src="club4.jpeg" alt="Club1">
-                        <p class="club-text">The Tech Innovators Society brings together students with a passion for technology and innovation. This club provides a platform for members to explore emerging technologies, engage in hackathons, and collaborate on cutting-edge projects. Through workshops, guest lectures, and networking events, the club empowers members to hone their technical skills and apply them to solve real-world problems. The Tech Innovators Society aims to foster a community of future tech leaders who drive positive change through technology.</p>
+                        <img src="club4.jpeg" alt="Club1" >
+                        <div class="container">
+                            <h3 class="club-heading">Creative Ink</h3>                        
+                            <p class="club-text">Some text...</p>
+                        </div>
                     </div>
                     <div class="club5">
-                        <h3 class="club-heading">EcoWarriors Club</h3>
-                        <img src="club5.jpg" alt="Club1">
-                        <p class="club-text">The EcoWarriors Club is dedicated to promoting environmental awareness, sustainability, and conservation practices within the university community and beyond. Through engaging workshops, eco-friendly initiatives, and outreach programs, members strive to create a greener campus and inspire environmentally conscious action. This club collaborates with local environmental organizations and participates in community clean-up events to protect and preserve our planet.</p>
-                    </div>                                                                        
+                        <img src="club5.jpg" alt="Club1" >
+                        <div class="container">
+                            <h3 class="club-heading">Phoenix Flyers</h3>                        
+                            <p class="club-text">Some text...</p>
+                        </div>
+                    </div>
+                    <div class="club6">
+                        <img src="club5.jpg" alt="Club1" >
+                        <div class="container">
+                            <h3 class="club-heading">Drama Den</h3>                        
+                            <p class="club-text">Some text...</p>
+                        </div>
+                    </div> 
+                    <div class="club7">
+                        <img src="club5.jpg" alt="Club1" >
+                        <div class="container">
+                            <h3 class="club-heading">Dance Bliss</h3>                        
+                            <p class="club-text">Some text...</p>
+                        </div>
+                    </div>                                                                                                          
                 </div>
             </section>
         </main>
         <footer class="footer">
             <address class="address">
                 <div class="contact">
-                    <i>IITM BS Degree Office, 3rd Floor, ICSR Building,
-                    IIT Madras, Chennai - 600036</i>
-                    <i>
-                        7850999966 (Mon-Fri 9am-6pm)
-                        support@study.iitm.ac.in</i>
+                    <h3>Contact Us</h3>
+                    <div class="location">
+                        <h4>Location</h4>
+                        <ul>
+                            <li><i>IITM BS Degree Office, 3rd Floor, ICSR Building,</i></li>
+                            <li><i> IIT Madras, Chennai - 600036</i></li>
+                        </ul>
+                    </div>
+                    <div class="phone">
+                        <h4>Mobile Number</h4>
+                        <ul>
+                            <li><i>7850999966 (Mon-Fri 9am-6pm)</i></li>
+                        </ul>
+                    </div>
+                    <div class="email">
+                        <h4>Email</h4>
+                        <ul>
+                            <li><i>support@study.iitm.ac.in</i></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="social-media">
-                    <i></i>
-                    <i></i>
-                    <i></i>
+                    <h4>Our Social Media Handles</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="">Linked In</a></li>
+                        <li><a href="">Facebook</a></li>
+                    </ul> 
                 </div>
             </address>
             <div class="copyright">
-                <p>COPYRIGHT @sitare 2023</p>
+                <p>Copyright &copy;2023 Sitare All Rights Reserved</p>
             </div>
         </footer>
     </body>
