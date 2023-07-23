@@ -103,6 +103,9 @@
     margin: 20px auto;
 
 }
+.club1:hover, .club2:hover, .club3:hover, .club4:hover, .club5:hover, .club6:hover, .club7:hover{
+    transform: translateY(-15px) scale(1.1)
+}
 .container{
     padding: 2px 16px;
 }
@@ -157,8 +160,6 @@ ul{
 a:hover{
     font-size: x-large;
 }
-
-
 
 
 /* Responsive styles are at the below */
