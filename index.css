@@ -154,7 +154,7 @@ ul{
     padding-top: 10px;
     text-align: center;
 }
-li:hover{
+a:hover{
     font-size: x-large;
 }
 
